@@ -93,16 +93,13 @@ header nav {
   }
   .logo {
     order: 0;
-    margin: 20px auto;
-  }
-  header nav a {
-    width: 100%;
-    order: 1;
-    border-bottom: 2px solid grey;
+    margin: 0 auto;
+    align-self: center;
+    margin-bottom: 6%;
   }
   .services {
-    border-top: 2px solid grey;
-    border-bottom: 2px solid grey;
+    border-top: 2px solid darkgrey;
+    border-bottom: 2px solid darkgrey;
   }
 }
 
@@ -112,6 +109,14 @@ header nav {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 50px;
+}
+
+@media (max-width: 500px) {
+  .title {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  }
 }
 
 h1 {
@@ -130,6 +135,9 @@ h1 {
 @media (max-width: 500px) {
   .top-section img {
     display: none;
+  }
+  .top-section {
+    margin: 10% auto;
   }
 }
 
@@ -157,11 +165,30 @@ h1 {
 	animation-fill-mode: forwards;
 }
 
+@media (max-width: 500px) {
+  .top-section button {
+    margin: 0 auto;
+  }
+}
+
 header nav a {
 	color: grey;
 	margin-right: 38px;
 	text-decoration: none;
 	padding: 10px;
+}
+
+@media (max-width: 500px) {
+  header nav a {
+    width: 100%;
+    order: 1;
+    border-bottom: 2px solid darkgrey;
+    align-self: center;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    color: darkgrey;
+  }
 }
 
 .top-section {
@@ -179,6 +206,12 @@ header nav a {
   .middle-img {
     width: 100%
   }
+  .main-content {
+    margin: 0 auto;
+    height: 900px;
+    border-top: solid 2px grey;
+    border-bottom: solid 2px grey;
+  }
 }
 
 .main-content-top {
@@ -195,6 +228,15 @@ header nav a {
 	justify-content: space-between;
 }
 
+@media (max-width: 500px) {
+  .main-content-top {
+    margin: 0 auto;
+  }
+  .main-content-bottom {
+    margin: 0 auto;
+  }
+}
+
 .top-sub-section {
 	width: 380px;
 	height: 106px;
@@ -203,6 +245,8 @@ header nav a {
 @media (max-width: 500px) {
   .top-sub-section {
     width: 100%;
+    height: 20%;
+    margin: 6% auto;
   }
 }
 
@@ -218,6 +262,8 @@ header nav a {
 @media (max-width: 500px) {
   .bottom-sub-section {
     width: 100%;
+    height: 20%;
+    margin: 6% auto;
   }
 }
 
@@ -232,4 +278,11 @@ h3 {
 .copyright {
 	margin-left: 370px;
 	margin-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+  .copyright {
+    margin: 0 auto;
+    text-align: center;
+  }
 }
