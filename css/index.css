@@ -75,6 +75,12 @@ body {
   }
 }
 
+@media (max-width:800px) {
+  body {
+    width: 100%;
+  }
+}
+
 header nav {
 	margin-top: 10px;
 }
@@ -103,6 +109,19 @@ header nav {
   }
 }
 
+@media (max-width: 800px) {
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .logo {
+    order: -1;
+    margin: 0 auto;
+    align-self: center;
+    margin-bottom: 6%;
+  }
+
 .title {
 	height: 260px;
 	width: 497px;
@@ -112,6 +131,14 @@ header nav {
 }
 
 @media (max-width: 500px) {
+  .title {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
   .title {
     width: 100%;
     margin: 0 auto;
@@ -133,6 +160,15 @@ h1 {
 }
 
 @media (max-width: 500px) {
+  .top-section img {
+    display: none;
+  }
+  .top-section {
+    margin: 10% auto;
+  }
+}
+
+@media (max-width: 800px) {
   .top-section img {
     display: none;
   }
@@ -228,6 +264,12 @@ header nav a {
 	justify-content: space-between;
 }
 
+@media (max-width: 800px) {
+  .middle-img {
+    width: 100%;
+  }
+}
+
 @media (max-width: 500px) {
   .main-content-top {
     margin: 0 auto;
@@ -283,6 +325,13 @@ h3 {
 @media (max-width: 500px) {
   .copyright {
     margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .copyright {
+    margin: 20px auto;
     text-align: center;
   }
 }
