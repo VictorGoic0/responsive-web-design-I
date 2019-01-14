@@ -69,6 +69,12 @@ body {
 	margin: 0 auto;
 }
 
+@media (max-width:500px) {
+  body {
+    width: 100%;
+  }
+}
+
 header nav {
 	margin-top: 10px;
 }
@@ -77,6 +83,27 @@ header nav {
 	margin-left: 10px;
 	position: relative;
 	top: 8px;
+}
+
+@media (max-width: 500px) {
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .logo {
+    order: 0;
+    margin: 20px auto;
+  }
+  header nav a {
+    width: 100%;
+    order: 1;
+    border-bottom: 2px solid grey;
+  }
+  .services {
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+  }
 }
 
 .title {
@@ -98,6 +125,12 @@ h1 {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+  .top-section img {
+    display: none;
+  }
 }
 
 .top-section button {
@@ -125,13 +158,10 @@ h1 {
 }
 
 header nav a {
-	color: white;
+	color: grey;
 	margin-right: 38px;
 	text-decoration: none;
-	border-radius: 40px;
-	border: 1px solid black;
 	padding: 10px;
-	background-color: black;
 }
 
 .top-section {
@@ -145,23 +175,35 @@ header nav a {
 	margin: 36px auto 20px auto;
 }
 
+@media (max-width: 500px) {
+  .middle-img {
+    width: 100%
+  }
+}
+
 .main-content-top {
 	margin: 40px auto;
 	display: flex;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .main-content-bottom {
 	margin: 40px auto;
 	display: flex;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .top-sub-section {
 	width: 380px;
 	height: 106px;
+}
+
+@media (max-width: 500px) {
+  .top-sub-section {
+    width: 100%;
+  }
 }
 
 .main-content-top h3 {
@@ -171,6 +213,12 @@ header nav a {
 .bottom-sub-section {
 	width: 250px;
 	height: 160px;
+}
+
+@media (max-width: 500px) {
+  .bottom-sub-section {
+    width: 100%;
+  }
 }
 
 footer {
