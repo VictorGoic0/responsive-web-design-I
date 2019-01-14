@@ -114,10 +114,11 @@ header nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
   }
   .logo {
-    order: -1;
-    margin: 0 auto;
+    order: 0;
+    margin: 0 400px;
     align-self: center;
     margin-bottom: 6%;
   }
@@ -222,6 +223,15 @@ header nav a {
     align-self: center;
     margin: 0 auto;
     text-align: center;
+    font-weight: bold;
+    color: darkgrey;
+  }
+}
+
+@media (max-width: 800px) {
+  header nav a {
+    order: 1;
+    margin: 0 auto;
     font-weight: bold;
     color: darkgrey;
   }
