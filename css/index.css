@@ -69,13 +69,7 @@ body {
 	margin: 0 auto;
 }
 
-@media (max-width:500px) {
-  body {
-    width: 100%;
-  }
-}
-
-@media (max-width:800px) {
+@media(max-width: 800px) {
   body {
     width: 100%;
   }
@@ -91,7 +85,7 @@ header nav {
 	top: 8px;
 }
 
-@media (max-width: 500px) {
+@media(max-width: 500px) {
   header nav {
     display: flex;
     flex-wrap: wrap;
@@ -109,7 +103,7 @@ header nav {
   }
 }
 
-@media (max-width: 800px) {
+@media(max-width: 800px) {
   header nav {
     display: flex;
     flex-wrap: wrap;
@@ -122,6 +116,7 @@ header nav {
     align-self: center;
     margin-bottom: 6%;
   }
+}
 
 .title {
 	height: 260px;
@@ -131,15 +126,7 @@ header nav {
 	margin-top: 50px;
 }
 
-@media (max-width: 500px) {
-  .title {
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 800px) {
+@media(max-width: 800px) {
   .title {
     width: 100%;
     margin: 0 auto;
@@ -160,16 +147,7 @@ h1 {
 	justify-content: space-between;
 }
 
-@media (max-width: 500px) {
-  .top-section img {
-    display: none;
-  }
-  .top-section {
-    margin: 10% auto;
-  }
-}
-
-@media (max-width: 800px) {
+@media(max-width: 800px) {
   .top-section img {
     display: none;
   }
@@ -202,7 +180,7 @@ h1 {
 	animation-fill-mode: forwards;
 }
 
-@media (max-width: 500px) {
+@media(max-width: 500px) {
   .top-section button {
     margin: 0 auto;
   }
@@ -215,7 +193,7 @@ header nav a {
 	padding: 10px;
 }
 
-@media (max-width: 500px) {
+@media(max-width: 500px) {
   header nav a {
     width: 100%;
     order: 1;
@@ -228,7 +206,7 @@ header nav a {
   }
 }
 
-@media (max-width: 800px) {
+@media(max-width: 800px) {
   header nav a {
     order: 1;
     margin: 0 auto;
@@ -248,9 +226,9 @@ header nav a {
 	margin: 36px auto 20px auto;
 }
 
-@media (max-width: 500px) {
+@media(max-width: 500px) {
   .middle-img {
-    width: 100%
+    width: 100%;
   }
   .main-content {
     margin: 0 auto;
@@ -274,13 +252,13 @@ header nav a {
 	justify-content: space-between;
 }
 
-@media (max-width: 800px) {
+@media(max-width: 800px) {
   .middle-img {
     width: 100%;
   }
 }
 
-@media (max-width: 500px) {
+@media(max-width: 500px) {
   .main-content-top {
     margin: 0 auto;
   }
@@ -294,7 +272,7 @@ header nav a {
 	height: 106px;
 }
 
-@media (max-width: 500px) {
+@media(max-width: 500px) {
   .top-sub-section {
     width: 100%;
     height: 20%;
@@ -311,7 +289,7 @@ header nav a {
 	height: 160px;
 }
 
-@media (max-width: 500px) {
+@media(max-width: 500px) {
   .bottom-sub-section {
     width: 100%;
     height: 20%;
@@ -332,7 +310,7 @@ h3 {
 	margin-bottom: 30px;
 }
 
-@media (max-width: 500px) {
+@media(max-width: 500px) {
   .copyright {
     margin: 0 auto;
     text-align: center;
