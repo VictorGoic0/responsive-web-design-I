@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	width: 876px;
+	max-width: 876px;
 	margin: 0 auto;
 }
 
@@ -86,16 +86,8 @@ header nav {
 }
 
 @media(max-width: 500px) {
-  header nav {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
   .logo {
-    order: 0;
     margin: 0 auto;
-    align-self: center;
-    margin-bottom: 6%;
   }
   .services {
     border-top: 2px solid darkgrey;
@@ -196,13 +188,9 @@ header nav a {
 @media(max-width: 500px) {
   header nav a {
     width: 100%;
-    order: 1;
     border-bottom: 2px solid darkgrey;
     align-self: center;
-    margin: 0 auto;
     text-align: center;
-    font-weight: bold;
-    color: darkgrey;
 		padding: 4%;
   }
 }
@@ -225,6 +213,10 @@ header nav a {
 	border-bottom: solid 1px black;
 	height: 600px;
 	margin: 36px auto 20px auto;
+}
+
+.middle-img {
+	width: 100%;;
 }
 
 @media(max-width: 500px) {
@@ -307,14 +299,13 @@ h3 {
 }
 
 .copyright {
-	margin-left: 370px;
+	text-align: center;
 	margin-bottom: 30px;
 }
 
 @media(max-width: 500px) {
   .copyright {
     margin: 0 auto;
-    text-align: center;
   }
 }
 
