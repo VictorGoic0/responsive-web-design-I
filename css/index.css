@@ -234,14 +234,12 @@ header nav a {
 .main-content-top {
 	margin: 40px auto;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .main-content-bottom {
 	margin: 40px auto;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
@@ -254,9 +252,11 @@ header nav a {
 @media(max-width: 500px) {
   .main-content-top {
     margin: 0 auto;
+		flex-wrap: wrap;
   }
   .main-content-bottom {
     margin: 0 auto;
+		flex-wrap: wrap;
   }
 }
 
